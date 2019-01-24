@@ -1,0 +1,10 @@
+package android-sdk
+package apt
+package bundler
+package foreign-env
+package gem
+package nvm
+package rails
+package rustup
+package rvm
+theme default

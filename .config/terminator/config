@@ -1,0 +1,30 @@
+[global_config]
+  broadcast_default = off
+  enabled_plugins = InactivityWatch, CustomCommandsMenu, ActivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, Logger, LaunchpadBugURLHandler
+  homogeneous_tabbar = False
+  scroll_tabbar = True
+  tab_position = bottom
+  title_font = Hack 7
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    audible_bell = True
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    cursor_shape = ibeam
+    font = Hack 10
+    icon_bell = False
+    scrollback_infinite = True
+    scrollbar_position = left
+    show_titlebar = False
+    use_system_font = False

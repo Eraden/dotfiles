@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if feh --bg-fill $1; then
+  notify-send "Background changed"
+fi
+
